@@ -1,0 +1,2 @@
+# show-Children-Elements
+when we code in html, we like to get in shape the code and not write all the code in one line, but if we do so, each concatenation of space, \n and \t is considered as a node #text. Further, the text isn't shaped as it appears in the browser (\n and (space){2, } are considered as one space). So the two following functions format the textNode as it appears in the browser, and select htmlElements that are relevant in the dom and not resulting from shaping the html code
